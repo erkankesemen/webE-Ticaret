@@ -1,0 +1,44 @@
+:root {
+    --primary: #6610F2;
+}
+
+.top-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-light {
+    background-color: #fff;
+    border-color: #dee2e6;
+    color: #212529;
+}
+
+.bg-primary, .btn-primary {
+    background-color: var(--primary) !important;
+}
+
+.navbar-brand {
+    color: var(--primary);
+}
+
+.btn-light i {
+    color: var(--primary);
+}
+
+.slider_nav{
+    max-height: 250px;
+}
+
+@media (min-width: 1200px) {
+    .slider_nav{
+        max-height: 300px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .slider_nav{
+        max-height: 350px;
+    }
+    
+}
